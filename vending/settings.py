@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'vending.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE' : 'djongo',
-        'NAME': 'vending'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'ENGINE' : 'djongo',
+        #'NAME': 'vending'
         #mongodb+srv://TestAdmin:<password>@cluster0-wn8be.mongodb.net/test?retryWrites=true&w=majority
     }
 }
